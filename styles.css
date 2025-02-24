@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: black;
+}
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-block: 25px;
+    width: 35%;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
